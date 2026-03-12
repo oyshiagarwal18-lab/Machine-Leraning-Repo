@@ -30,7 +30,6 @@ model.fit(X_train, y_train)
 
 # Predict
 y_pred = model.predict(X_test)
-
 # Accuracy check
 print("Mean Absolute Error:", metrics.mean_absolute_error(y_test, y_pred))
 
